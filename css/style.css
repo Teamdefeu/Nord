@@ -210,6 +210,20 @@ h1.page-header {
 /* 4.3 Node Document */
 
 /* 5 Varia */
+.fab {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+        font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-facebook-f::before,
+.fa-facebook::before {
+    content: "\f09a";
+}
+
 
 /* 6 Responsive */
 
