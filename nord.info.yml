@@ -10,6 +10,7 @@ regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
+  breadcrumb: 'Breadcrumb'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
@@ -19,6 +20,9 @@ regions:
   footer2: 'Footer 2'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+
+libraries:
+  - nord/fonts
 
 libraries-extend:
   bootstrap/framework:

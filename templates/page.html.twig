@@ -93,6 +93,19 @@
   {% endblock %}
 {% endif %}
 
+{# Breadcrumb #}
+{% if page.breadcrumb %}
+  {% block breadcrumb %}
+    <div class=title_breadcrumb>
+      <div class="container">
+        <div class="col-sm-12" role="heading">
+          {{ page.breadcrumb }}
+        </div>
+      </div>
+    </div>
+  {% endblock %}
+{% endif %}
+
 {# Main #}
 {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
@@ -144,7 +157,6 @@
         {# Content #}
         {% block content %}
           <a id="main-content"></a>
---le contenu commence ici
           {{ page.content }}
         {% endblock %}
       </section>
