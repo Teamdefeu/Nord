@@ -95,8 +95,28 @@
     </footer>
   {% endif %}
 
-  <div{{ content_attributes.addClass('content') }}>
-    {{ content }}
+<div class="wrapper">
+    <div class="row">
+
+  <div class="top">
+      <div class="col-sm-4">
+        <div class="top_left">
+          {{ content.field_image_personne }}
+        </div>
   </div>
+      <div class="col-sm-8">
+      <h2 class="nomdepersonne">{{ node.label }}</h2>
+        <div{{ content_attributes.addClass('content') }}>
+          {{ content|without('field_image_personne')|without('body') }}
+        </div>
+      </div>
+  </div>
+  </div>
+
+  <div class="bottom">
+{{ node.body.value|raw }}
+  </div>
+
+</div>
 
 </article>
