@@ -67,6 +67,23 @@
         <div class="{{ container }}">
       {% endif %}
       <div class="navbar-header">
+
+        {% if page.logo %}
+          {% block logo %}
+            <div class="logo" role="contentinfo">
+              {{ page.logo }}
+            </div>
+          {% endblock %}
+        {% endif %}
+
+              {% if page.navtop %}
+          {% block navtop %}
+            <div class="navtop" role="contentinfo">
+              {{ page.navtop }}
+            </div>
+          {% endblock %}
+        {% endif %}
+
         {{ page.navigation }}
         {# .btn-navbar is used as the toggle for collapsed navbar content #}
         {% if page.navigation_collapsible %}

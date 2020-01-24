@@ -149,8 +149,43 @@ blockquote {
 
 /* 2.3 Barre Titre */
 
-/* 2.4 Menu principal */
+.path-frontpage .title_breadcrumb {display:none;}
 
+/* 2.4 Menu principal */
+.navbar-default {
+  background-color: #fff;
+  border:none;
+}
+
+.region-logo {
+  float: left;
+width: 40%;
+}
+
+
+.navbar .logo {
+
+  float: left;width: 20%;
+}
+.navbar-brand {
+width: 80%;
+float:left;
+}
+.navbar-text {
+
+}
+
+.region-navtop {
+  float: right;
+  text-align: right;
+}
+.region-navigation {
+  float: right;
+  text-align: right;
+}
+.menu--main li.last a {
+  padding-right: 0;
+}
 /* 2.5 Menu principal collapsé */
 
 /* 2.6 Titre des blocs */
@@ -169,6 +204,9 @@ blockquote {
 .footer-bottom {text-align:center;padding-top: 50px;padding-bottom: 50px;}
 
 /* 3.2 Recherche V1 - sans module custom */
+
+#block-formulairederecherche {float:right;padding-top: 10px}
+#block-nord-account-menu{float:right;}
 
 /* 3.3 Search collapsible */
 
