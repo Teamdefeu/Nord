@@ -171,10 +171,12 @@
     </div>
   </div>
 {% endblock %}
-
+<div class="footer_wrapper">
+<div class="container">
+<div class="row">
 {% if page.footer %}
   {% block footer %}
-    <footer class="footer {{ container }}" role="contentinfo">
+    <footer class="footer-first col-xs-12 col-md-3" role="contentinfo">
       {{ page.footer }}
     </footer>
   {% endblock %}
@@ -182,8 +184,28 @@
 
 {% if page.footer2 %}
   {% block footer2 %}
-    <footer class="footer2 {{ container }}" role="contentinfo">
+    <footer class="footer-second col-xs-12 col-md-3" role="contentinfo">
       {{ page.footer2 }}
     </footer>
   {% endblock %}
 {% endif %}
+
+{% if page.footer3 %}
+  {% block footer3 %}
+    <footer class="footer-third col-xs-12 col-md-6" role="contentinfo">
+      {{ page.footer3 }}
+    </footer>
+  {% endblock %}
+{% endif %}
+</div>
+<div class="row">
+{% if page.footer_bottom %}
+  {% block footer_bottom %}
+    <footer class="footer-bottom col-xs-12" role="contentinfo">
+      {{ page.footer_bottom }}
+    </footer>
+  {% endblock %}
+{% endif %}
+</div>
+</div>
+</div>

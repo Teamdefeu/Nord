@@ -50,7 +50,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #1d2127;
     font-weight: 200;
     letter-spacing: -1px;
     margin: 0;
@@ -161,6 +160,13 @@ blockquote {
 /* 3.0 Slices */
 
 /* 3.1 Footer */
+
+.footer_wrapper {background:#1F1E23;color: #FFF;margin-top:50px;}
+.footer_wrapper a {color: #FFF;}
+.footer-first h2 {padding-top: 50px;}
+.footer-second h2 {padding-top: 50px;}
+.footer-third h2 {padding-top: 50px;}
+.footer-bottom {text-align:center;padding-top: 50px;padding-bottom: 50px;}
 
 /* 3.2 Recherche V1 - sans module custom */
 
