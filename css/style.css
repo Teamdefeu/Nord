@@ -149,7 +149,9 @@ blockquote {
 
 /* 2.3 Barre Titre */
 
-.path-frontpage .title_breadcrumb {display:none;}
+.path-frontpage .title_breadcrumb {
+  display:none;
+}
 
 /* 2.4 Menu principal */
 .navbar-default {
@@ -159,17 +161,16 @@ blockquote {
 
 .region-logo {
   float: left;
-width: 40%;
+  width: 40%;
 }
 
-
-.navbar .logo {
-
-  float: left;width: 20%;
+.navbar .navbar-btn {
+  float: left;
+  width: 20%;
 }
 .navbar-brand {
-width: 80%;
-float:left;
+  width: 80%;
+  float:left;
 }
 .navbar-text {
 
