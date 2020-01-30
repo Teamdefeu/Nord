@@ -6,6 +6,12 @@ name: 'nord'
 description: 'Thème pour Imaginaire Nord'
 package: 'Bootstrap'
 
+libraries:
+#  - nord/bootstrap
+  - nord/webfonts
+#  - nord/font-awesome
+  - nord/base
+
 regions:
   logo: 'Logo'
   navtop: 'Navtop'
@@ -25,9 +31,3 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
-libraries:
-  - nord/fonts
-
-libraries-extend:
-  bootstrap/framework:
-    - nord/framework
