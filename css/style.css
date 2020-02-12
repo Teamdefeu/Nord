@@ -11,6 +11,7 @@
 * 2.4 Menu principal
 * 2.5 Menu principal collapsé
 * 2.6 Titre des blocs
+* 2.7 Carousel Publications
 * 3 Regions
 * 3.0 Slices
 * 3.1 Footer
@@ -190,6 +191,20 @@ blockquote {
 /* 2.5 Menu principal collapsé */
 
 /* 2.6 Titre des blocs */
+
+/* 2.7 Carousel Publications */
+
+/* Default 400x533*/
+.view-accueil-publications .flexslider .slides img {
+    height: auto;
+    width: auto;
+}
+.view-accueil-publications .flexslider .views-field-field-image-publication img {
+    max-height: 263px;
+}
+.view-accueil-publications .flexslider .slides > li {
+    margin: 0 15px;
+}
 
 /* 3 Regions */
 
