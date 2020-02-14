@@ -380,6 +380,10 @@ h1.page-header {
     margin-bottom: 2em;
     clear: both;
 }
+/* Bootstrap - ajouter règles pour 2,3 colonnes */
+.row .views-row {
+  clear: none;
+}
 .views-field-title {
     color: #0088cc !important;
     font-size: 1.4em;
