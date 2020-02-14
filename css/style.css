@@ -12,6 +12,7 @@
 * 2.5 Menu principal collapsé
 * 2.6 Titre des blocs
 * 2.7 Carousel Publications
+* 2.8 Section Logo
 * 3 Regions
 * 3.0 Slices
 * 3.1 Footer
@@ -268,6 +269,14 @@ a.bef-link-active {
 .view-accueil-publications .flexslider .slides > li {
     margin: 0 15px;
 }
+
+/* 2.8 Section Logo*/
+
+.navbar-default .navbar-brand {
+   color:#0088cc;
+
+}
+
 
 /* 3 Regions */
 
