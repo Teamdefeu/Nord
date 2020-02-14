@@ -19,7 +19,7 @@
 * 3.3 Search collapsible
 * 3.4 Sidebar
 * 3.5 Région Breadcrumb
-* 3.6 Accueil + titres
+* 3.6 Accueil + listes: titres
 * 3.7 Help region + tabs
 * 4 Noeuds
 * 4.1 Node Actualité
@@ -329,7 +329,7 @@ a.bef-link-active {
   padding: 35px 0;
 }
 
-/* 3.6 Accueil + titres */
+/* 3.6 Accueil + Listes - Titres */
 h1.page-header {
   padding-bottom: 25px;
   margin: 0 0 -25px;
@@ -366,6 +366,20 @@ h1.page-header {
   line-height: 27px;
   margin: 0 0 14px 0;
 }
+/* Listes - Titre et espacement des items */
+.views-row {
+    margin-bottom: 2em;
+    clear: both;
+}
+.views-field-title {
+    color: #0088cc !important;
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+
 /* 3.7 Help region + tabs */
 .alert {
   background-color: transparent;
