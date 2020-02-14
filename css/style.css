@@ -19,6 +19,8 @@
 * 3.3 Search collapsible
 * 3.4 Sidebar
 * 3.5 Région Breadcrumb
+* 3.6 Accueil + titres
+* 3.7 Help region + tabs
 * 4 Noeuds
 * 4.1 Node Actualité
 * 4.2 Node Personne
@@ -42,111 +44,132 @@
 
 /*https://www.refaktor.org/drupal/porto7/typography*/
 body {
-    background-color: #FFF;
-    color: #777;
-    font-family: "Open Sans",Arial,sans-serif;
-    font-size: 14px;
-    line-height: 22px;
-    margin: 0;
+  background-color: #FFF;
+  color: #777;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 200;
-    letter-spacing: -1px;
-    margin: 0;
+  font-weight: 200;
+  letter-spacing: -1px;
+  margin: 0;
 }
 h1 {
-    font-size: 2.6em;
-    line-height: 44px;
-    margin: 0 0 32px 0;
+  font-size: 2.6em;
+  line-height: 44px;
+  margin: 0 0 32px 0;
 }
 h2 {
-    font-size: 2.2em;
-    font-weight: 300;
-    line-height: 42px;
-    margin: 0 0 32px 0;
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 42px;
+  margin: 0 0 32px 0;
 }
 h3 {
-    font-size: 1.8em;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: 24px;
-    margin-bottom: 33px;
-    text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin-bottom: 33px;
+  text-transform: uppercase;
 }
 h4 {
-    font-size: 1.4em;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: 27px;
-    margin: 0 0 14px 0;
-    margin-bottom: 14px;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin: 0 0 14px 0;
+  margin-bottom: 14px;
 }
 h5 {
-    font-size: 1em;
-    font-weight: 600;
-    letter-spacing: normal;
-    line-height: 18px;
-    margin: 0 0 14px 0;
-    text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 18px;
+  margin: 0 0 14px 0;
+  text-transform: uppercase;
 }
 h6 {
-    color: #333;
-    font-size: 1em;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: 18px;
-    margin: 0 0 14px 0;
+  color: #333;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+  margin: 0 0 14px 0;
 }
 p {
-    color:  #777;
-    line-height: 24px;
-    margin: 0 0 20px;
+  color:  #777;
+  line-height: 24px;
+  margin: 0 0 20px;
 }
 
 a {
-    color:  #0088cc;
+  color:  #0088cc;
 }
 a:hover, a:focus {
-    color:  #0099e6;
+  color:  #0099e6;
 }
 /* BOUTON LABEL */
 .label {
-    font-weight: normal;
+  font-weight: normal;
 }
 .label-info {
-    background-color: #5bc0de;
+  background-color: #5bc0de;
 color:
-    #FFF;
+  #FFF;
 }
 .label-info {
-    background-color: #5bc0de;
+  background-color: #5bc0de;
 }
 .label {
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em;
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
 }
 
 blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee;
-    font-size: 1em;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+  font-size: 1em;
 }
 
 /* 2 Fonctionnalités*/
 /* 2.1 Menu mobile */
 
 /* 2.2 Quicktabs standards */
+.quicktabs-wrapper {
+  padding: 40px 0 0;
+}
+.bef-links,
+ul.quicktabs-tabs {
+  margin: 0;
+  padding: 0 0 40px;
+  text-align: center;
+}
+.bef-links {
+  padding: 40px 0;
+}
+.bef-links a,
+ul.quicktabs-tabs li a {
+  padding: 6px 20px 5px;
+}
+ul.quicktabs-tabs li.active a,
+a.bef-link-active {
+  border: 1px solid #222;
+  border-radius: 20px;
+}
 
 /* 2.3 Barre Titre */
 
@@ -191,6 +214,14 @@ blockquote {
 /* 2.5 Menu principal collapsé */
 
 /* 2.6 Titre des blocs */
+.block .block-title {
+  background: none;
+  position: relative;
+  margin: 0 0 10px;
+  color: #08c;
+  border-bottom: 1px solid #08c;
+  z-index: 1;
+}
 
 /* 2.7 Carousel Publications */
 
@@ -212,21 +243,42 @@ blockquote {
 
 /* 3.1 Footer */
 
-.footer_wrapper {background:#1F1E23;color: #FFF;margin-top:50px;}
-.footer_wrapper a {color: #FFF;}
-.footer-first h2 {padding-top: 50px;}
-.footer-second h2 {padding-top: 50px;}
-.footer-third h2 {padding-top: 50px;}
-.footer-bottom {text-align:center;padding-top: 50px;padding-bottom: 50px;}
+.footer_wrapper {
+  background:#1F1E23;
+  color: #FFF;
+  margin-top:50px;
+}
+.footer_wrapper a {
+  color: #FFF;
+}
+.footer-first h2,.footer-second h2,.footer-third h2 {
+  padding-top: 50px;
+}
+.footer-bottom {
+  text-align:center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 /* 3.2 Recherche V1 - sans module custom */
 
-#block-formulairederecherche {float:right;padding-top: 10px}
-#block-nord-account-menu{float:right;}
+#block-formulairederecherche {
+  float:right;
+  padding-top: 10px
+}
+#block-nord-account-menu{
+  float:right;
+}
 
 /* 3.3 Search collapsible */
 
 /* 3.4 Sidebar */
+.well.region-sidebar-second {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
 
 /* 3.5 Région Breadcrumb */
 
@@ -243,24 +295,72 @@ blockquote {
   #F4F4F4;
   border-top: none;
   padding: 35px 0;
-                }
+}
 
+/* 3.6 Accueil + titres */
 h1.page-header {
-    padding-bottom: 25px;
-    margin: 0 0 -25px;
+  padding-bottom: 25px;
+  margin: 0 0 -25px;
 }
 h1.page-header {
-    padding-bottom: 13px;
-    margin: 0;
-    display: inline-block;
-    font-size: 32px;
-    font-weight: 200;
-    line-height: 32px;
-    border-bottom: none;
-    color:
-    #1d2127;
-    font-size: 2.3em;
+  padding-bottom: 13px;
+  margin: 0;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 32px;
+  border-bottom: none;
+  color:#1d2127;
+  font-size: 2.3em;
 }
+/* TITRE ACCUEIL */
+.path-frontpage .accueil_actualites_title {
+  color: #0088cc !important;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin: 0 0 14px 0;
+}
+/* TITRES LISTES */
+.accueil_actualites_title,
+.view-individus .row_title,
+.view-documents .row_title,
+.individu_title span {
+  color: #0088cc !important;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin: 0 0 14px 0;
+}
+/* 3.7 Help region + tabs */
+.alert {
+  background-color: transparent;
+  border-color: none;
+  color: #3a87ad;
+}
+.nav-tabs > li.active > a, .nav-tabs > li > a.active {
+   color: #0088cc !important;
+}
+/* Fix pour Alert */
+.alert {
+  background-color: transparent;
+  border-color: none;
+  color: #3a87ad;
+  padding: 0;
+  line-height: 1px;
+  border-color: #fff;
+  margin-bottom: 0;
+}
+.alert > div {
+  padding: 20px;
+  line-height: 1
+}
+.alert .icon {
+  display: none;
+}
+
 /* 4 Noeuds */
 
 /* 4.1 Node Actualité */
