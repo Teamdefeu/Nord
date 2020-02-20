@@ -242,7 +242,7 @@ a.bef-link-active {
   text-align: right;
 }
 .menu--main li.last a {
-  padding-right: 0;
+  padding-right: 10px;
 }
 /* 2.5 Menu principal collapsé */
 
