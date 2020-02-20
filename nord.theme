@@ -6,3 +6,10 @@
  *
  * Place your custom PHP code in this file.
  */
+
+function Nord_preprocess_input(&$variables) {
+  // Set a placeholder for all search form elements.
+  if ($variables['attributes']['type'] == 'search') {
+    $variables['attributes']['placeholder'] = 'Rechercher';
+  }
+}
