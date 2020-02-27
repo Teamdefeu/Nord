@@ -145,6 +145,16 @@ blockquote {
   border-left: 5px solid #eee;
   font-size: 1em;
 }
+/* Listes - Titre et espacement des items */
+/* Par defaut - 1 item par rangee */
+.views-row {
+    margin-bottom: 2em;
+    clear: both;
+}
+/* si on ajoute bootstrap grid sur une vue, on revient à 3 items par rangee*/
+.bootstrap-grid .views-row {
+    clear: none;
+}
 
 /* 2 Fonctionnalités*/
 /* 2.1 Menu mobile */
@@ -399,15 +409,11 @@ h1.page-header {
   line-height: 27px;
   margin: 0 0 14px 0;
 }
-/* Listes - Titre et espacement des items */
-.views-row {
-    margin-bottom: 2em;
-    clear: both;
-}
+
 /* Bootstrap - ajouter règles pour 2,3 colonnes */
-.row .views-row {
+/*.row .views-row {
   clear: none;
-}
+}*/
 .views-field-title {
     color: #0088cc !important;
     font-size: 1.4em;
@@ -442,6 +448,52 @@ h1.page-header {
 }
 .alert .icon {
   display: none;
+}
+
+/* THEMER LES LISTES (VUES) */
+
+.path-documents .view-content h3, .path-actualites .view-content h3 {
+
+    margin-top: 2em;
+
+}
+
+.row_wrapper {
+
+}
+
+
+.row_image_wrapper {
+    float: left;
+    display: inline-block;
+}
+
+.row_image img {
+    width: 100%;
+    height: auto;
+    padding-right: 2em;
+    max-width: 100px;
+    padding-bottom: 2em;
+}
+
+.row_text_wrapper {
+   width: 80%;
+   display: inline-block;
+}
+
+
+.view-documents .row_title {
+    color:#0088cc !important;
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+
+
+.row_body {
+
 }
 
 /* 4 Noeuds */
