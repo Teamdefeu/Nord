@@ -341,6 +341,10 @@ a.bef-link-active {
   padding: 0;
 }
 
+.region-sidebar-second .block {
+  margin-bottom: 2em;
+}
+
 /* 3.5 Région Breadcrumb */
 
 .region-breadcrumb {}
