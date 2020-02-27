@@ -47,7 +47,7 @@
 body {
   background-color: #FFF;
   color: #777;
-  font-family: "Open Sans",Arial,sans-serif;
+  font-family: 'Open Sans',Arial,sans-serif;
   font-size: 14px;
   line-height: 22px;
   margin: 0;
@@ -179,15 +179,12 @@ a.bef-link-active {
 }
 
 /* 2.4 Menu principal */
-.navbar-default {
-  background-color: #fff;
-  border:none;
-}
 
 /* NICK CSS */
 .navbar-default {
   background-color: #fff;
   border:none;
+  font-weight: 700!important;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -195,11 +192,10 @@ a.bef-link-active {
   border-radius: 4px;
   font-size: 12px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 20px;
   padding: 10px 13px;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 .navbar-nav {
@@ -251,8 +247,8 @@ a.bef-link-active {
   background: none;
   position: relative;
   margin: 0 0 10px;
-  color: #08c;
-  border-bottom: 1px solid #08c;
+  color: #fff;
+  /* border-bottom: 1px solid #08c; */
   z-index: 1;
 }
 
@@ -299,6 +295,13 @@ a.bef-link-active {
   text-align:center;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+/*AWP TITRE EN BLANC DANS FOOTER*/
+
+#footer h1, #footer h2, #footer h3, #footer h4, #footer a {
+    color:
+    #fff;
 }
 
 /* 3.2 Recherche V1 - sans module custom */
