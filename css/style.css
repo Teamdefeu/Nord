@@ -502,6 +502,12 @@ h1.page-header {
 
 /* 4 Noeuds */
 
+/* ESPACE EN BAS DES IMAGES */
+
+.field--name-field-image-projet {
+    padding-bottom: 2em;
+}
+
 /* 4.1 Node Actualité */
 
 /* 4.2 Node Personne */
@@ -523,7 +529,7 @@ h1.page-header {
     content: "\f09a";
 }
 /* Cacher X dans les alertes */
-.alert-dismissable .close, 
+.alert-dismissable .close,
 .alert-dismissible .close {
   display: none;
 }
