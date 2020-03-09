@@ -522,6 +522,11 @@ h1.page-header {
 .fa-facebook::before {
     content: "\f09a";
 }
+/* Cacher X dans les alertes */
+.alert-dismissable .close, 
+.alert-dismissible .close {
+  display: none;
+}
 
 
 /* 6 Responsive */
