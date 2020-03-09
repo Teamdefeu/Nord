@@ -59,6 +59,12 @@
 #block-nord-account-menu {
     padding-top: 1em;
 }
+
+.navbar-header {
+
+    float: none;
+
+}
 /** 1 Balises générales*/
 
 /*https://www.refaktor.org/drupal/porto7/typography*/
