@@ -322,6 +322,7 @@ a.bef-link-active {
 }
 
 
+
 /* 3 Regions */
 
 /* FORCER LES COLONNES A TROIS PAR ROW*/
@@ -572,6 +573,24 @@ h1.page-header {
   display: none;
 }
 
+.alert {
+line-height: initial;
+}
+
+.navbar-text {
+    margin-left: 0;
+}
+
 
 /* 6 Responsive */
+
+
+/* PISTE awp responsive align logo center */
+
+/*.branding {
+    float: none;
+    width: 95%;
+    padding:1em:;
+}*/
+
 
