@@ -266,6 +266,12 @@ a.bef-link-active {
   z-index: 1;
 }
 
+/* TITRE EN NOIR DANS SIDEBAR */
+
+.block  .block-title {
+  color:#000!important;
+}
+
 /* 2.7 Carousel Publications */
 
 /* Default 400x533*/
