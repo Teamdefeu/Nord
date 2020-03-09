@@ -40,7 +40,25 @@
  * your custom CSS modifications here.
  */
 
+/* AWP DÉPLACEWR SEARCH FIELD EN HAUT */
 
+/*.input-group {
+    float:right;padding-bottom:2em;}
+
+.navbar-nav {
+    margin-top: 1em;
+    float:right;
+}*/
+
+
+.navbar-search  {
+    float: right;
+    padding-top:1em;
+}
+
+#block-nord-account-menu {
+    padding-top: 1em;
+}
 /** 1 Balises générales*/
 
 /*https://www.refaktor.org/drupal/porto7/typography*/
@@ -295,6 +313,10 @@ a.bef-link-active {
 
 
 /* 3 Regions */
+
+/* FORCER LES COLONNES A TROIS PAR ROW*/
+
+.bootstrap-grid .views-row:nth-of-type(3n+1) {clear:left;}
 
 /* 3.0 Slices */
 
