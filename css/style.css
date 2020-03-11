@@ -542,6 +542,16 @@ h1.page-header {
 
 }
 
+.view-actualites .row_image img {
+ max-width:initial;
+ padding-right:0;
+
+}
+
+.view-chercheurs .row_image img { }
+
+.view-publications .row_image img { }
+
 .row_text_wrapper {
    width: 80%;
    display: inline-block;
