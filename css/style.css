@@ -529,7 +529,7 @@ h1.page-header {
 }
 
 .row_text_wrapper {
-   width: auto;
+   width: 60%;
    display: inline-block;
 }
 /* grandeur image dans liste projets */
