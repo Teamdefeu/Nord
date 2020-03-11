@@ -506,15 +506,17 @@ h1.page-header {
     margin-top: 2em;
 
 }
-
+.row h3 {
+  clear: both;
+}
 .row_wrapper {
 
 }
 
-
 .row_image_wrapper {
     float: left;
     display: inline-block;
+    padding-right: 1em;
 }
 
 .row_image img {
@@ -526,6 +528,10 @@ h1.page-header {
 
 }
 
+.row_text_wrapper {
+   width: auto;
+   display: inline-block;
+}
 /* grandeur image dans liste projets */
 
 .view-projets .row_image img {
@@ -552,10 +558,7 @@ h1.page-header {
 
 .view-publications .row_image img { }
 
-.row_text_wrapper {
-   width: 80%;
-   display: inline-block;
-}
+
 
 
 .view-documents .row_title {
