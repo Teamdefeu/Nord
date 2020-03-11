@@ -533,6 +533,15 @@ h1.page-header {
   padding-right:0;
 }
 
+/* grandeur image dans liste événements */
+
+.view-evenements .row_image img {
+  max-width:initial
+
+
+
+}
+
 .row_text_wrapper {
    width: 80%;
    display: inline-block;
