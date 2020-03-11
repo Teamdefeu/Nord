@@ -590,13 +590,47 @@ line-height: initial;
 
 /* 6 Responsive */
 
+@media (max-width: 768px) {
 
-/* PISTE awp responsive align logo center */
+  ul.quicktabs-tabs li {
 
-/*.branding {
-    float: none;
-    width: 95%;
-    padding:1em:;
-}*/
+    display: block;
+    padding-top: 2em;
+  }
+
+.region-logo {
+    width: 80%;
+    max-width:100%;
+    margin: 0 auto;
+
+}
+
+/*.name .navbar-text { text-align:center; margin: 0 auto;}*/
+
+h1, h2, h3, h4, h5, h6 {
+
+padding-top: 2em;
+
+}
+
+
+.row_image img {
+    max-width: 100%;
+
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin:0 auto;
+}
+
+.row_wrapper {
+  padding-bottom: 1em;
+}
+
+
+}
 
 
