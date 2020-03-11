@@ -529,15 +529,15 @@ h1.page-header {
 /* grandeur image dans liste projets */
 
 .view-projets .row_image img {
-  max-width:initial
+  max-width:initial;
   padding-right:0;
 }
 
 /* grandeur image dans liste événements */
 
 .view-evenements .row_image img {
-  max-width:initial
-
+  max-width:initial;
+ padding-right:0;
 
 
 }
