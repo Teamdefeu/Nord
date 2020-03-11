@@ -521,9 +521,14 @@ h1.page-header {
     width: 100%;
     height: auto;
     padding-right: 2em;
-    max-width: 100px;
     padding-bottom: 2em;
+    max-width: 100px;
+
 }
+
+/* grandeur image dans liste projets */
+
+.view-projets .row_image img { max-width:initial}
 
 .row_text_wrapper {
    width: 80%;
