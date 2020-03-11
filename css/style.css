@@ -592,6 +592,45 @@ line-height: initial;
 
 @media (max-width: 768px) {
 
+.navbar-default .navbar-brand {
+    color: #0088cc;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.navbar-default .navbar-text {
+    color: #777;
+    text-align: center;
+}
+#block-nord-account-menu {
+    float: left;
+}
+.navbar-search {
+    /* float: left; */
+    padding: 1em;
+    text-align: left;
+    /* display: block; */
+    width: 100%;
+}
+.region-navtop {
+    float: left;
+    text-align: left;
+}
+#search-block-form .input-group .form-control {
+    float: left;
+}
+.input-group-btn {
+    float: left;
+    /* clear: both; */
+}
+.region-navigation {
+    float: left;
+    text-align: left;
+    clear: both;
+    padding-top: 1em;
+}
+
+
   ul.quicktabs-tabs li {
 
     display: block;
