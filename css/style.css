@@ -333,6 +333,12 @@ a.bef-link-active {
 
 /* 3.1 Footer */
 
+/* AWP font awesomne en blanc dans le footer */
+
+.fa {color:
+    #fff !important;
+}
+
 .footer_wrapper {
   background:#1F1E23;
   color: #FFF;
