@@ -575,9 +575,11 @@ h1.page-header {
 /* 4 Noeuds */
 
 /* ESPACE EN BAS DES IMAGES */
-
-.field--name-field-image-projet {
-    padding-bottom: 2em;
+.field--name-field-image-evenement, 
+.field--name-field-image-personne,
+.field--name-field-image-projet,
+.field--name-field-image-publication {
+  padding-bottom: 2em;
 }
 
 /* 4.1 Node Actualité */
