@@ -183,6 +183,7 @@ blockquote {
 /* Appliquer à tous les flexsliders */
 .flexslider {
   border:none;
+  margin: 0;
 }
 
 
@@ -255,6 +256,19 @@ a.bef-link-active {
 }
 
 /* FIN NICK CSS */
+
+.navbar-header {
+  position: relative;
+}
+/* contient moteur de recherche (à droite)
+   contient logo (fermé) */
+.navtop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
 .region-logo {
   float: left;
   width: 40%;
@@ -288,6 +302,12 @@ a.bef-link-active {
   font-weight: 700;
 }
 
+#block-nord-main-menu {
+  margin-top: -42px;
+  z-index: 99;
+  position: absolute;
+  right: 0;
+}
 
 /* 2.5 Menu principal collapsé */
 
@@ -401,6 +421,16 @@ a.bef-link-active {
 }
 #search-block-form .input-group .form-control {
   float: right;
+}
+.region-navtop .views-exposed-form {
+  padding-top: 5px;
+}
+.region-navtop .form-actions .btn {
+  margin-right: 0;
+}
+/* Si superposé à la bannière, limiter largeur du champ recherche */
+#edit-search-api-fulltext {
+  width: 200px;
 }
 
 /* 3.4 Sidebar */
