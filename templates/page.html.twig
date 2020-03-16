@@ -135,7 +135,8 @@
           </div>
         {% endblock %}
       {% endif %}
-
+    </div>
+    <div class="row">
       {# Sidebar First #}
       {% if page.sidebar_first %}
         {% block sidebar_first %}
@@ -185,6 +186,14 @@
           </aside>
         {% endblock %}
       {% endif %}
+    </div>
+    <div class="row">
+        {# Content Bottom #}
+        {% if page.content_bottom %}
+          {% block content_bottom %}
+            <div class="content-bottom cols-xs-12">{{ page.content_bottom }}</div>
+          {% endblock %}
+        {% endif %}
     </div>
   </div>
 {% endblock %}
