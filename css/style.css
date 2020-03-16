@@ -684,7 +684,22 @@ line-height: initial;
 
 /* 6 Responsive */
 
+/* Desktop: Exposed Search visible*/
+#block-mobilesearchlink {
+  display: none;
+}
+.region-navtop .views-exposed-form {
+  display: block;
+}
+
 @media (max-width: 768px) {
+/* Mobile: Lien vers /recherche visible */
+#block-mobilesearchlink {
+  display: block;
+}
+.region-navtop .views-exposed-form {
+  display: none;
+}
 
 .navbar-default .navbar-brand {
     color: #0088cc;
