@@ -311,6 +311,10 @@ a.bef-link-active {
 }
 
 #block-nord-main-menu {
+  margin-top: 50px;
+}
+
+.path-frontpage #block-nord-main-menu {
   margin-top: -42px;
   z-index: 99;
   position: absolute;
