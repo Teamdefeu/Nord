@@ -180,6 +180,12 @@ blockquote {
     clear: none;
 }
 
+/* Appliquer à tous les flexsliders */
+.flexslider {
+  border:none;
+}
+
+
 /* 2 Fonctionnalités*/
 /* 2.1 Menu mobile */
 
@@ -213,6 +219,11 @@ a.bef-link-active {
 }
 
 /* 2.4 Menu principal */
+/* Aligner l'entête avec le contenu */
+.navbar.container {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 /* NICK CSS */
 .navbar-default {
