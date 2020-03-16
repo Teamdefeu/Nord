@@ -312,6 +312,8 @@ a.bef-link-active {
 
 #block-nord-main-menu {
   margin-top: 50px;
+  z-index: 1;
+  position: relative;
 }
 
 .path-frontpage #block-nord-main-menu {
@@ -319,6 +321,9 @@ a.bef-link-active {
   z-index: 99;
   position: absolute;
   right: 0;
+}
+.navbar-header {
+  width: 100%;
 }
 
 /* 2.5 Menu principal collapsé */
@@ -466,12 +471,11 @@ a.bef-link-active {
   min-height: 50px;
   position: relative;
   text-align: left;
-  background-color:
-  #F7F7F7;
-  border-bottom: 5px solid
-  #F4F4F4;
+  background-color: #F7F7F7;
+  border-bottom: 5px solid#F4F4F4;
   border-top: none;
   padding: 35px 0;
+  clear: both;
 }
 
 /* 3.6 Accueil + Listes - Titres */
