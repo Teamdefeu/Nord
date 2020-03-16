@@ -220,12 +220,6 @@ a.bef-link-active {
 }
 
 /* 2.4 Menu principal */
-/* Aligner l'entête avec le contenu */
-.navbar.container {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 /* NICK CSS */
 .navbar-default {
   background-color: #fff;
@@ -257,11 +251,28 @@ a.bef-link-active {
 
 /* FIN NICK CSS */
 
-.navbar-header {
+/* Aligner l'entête avec le contenu */
+#navbar {
   position: relative;
 }
+.navbar.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* contient moteur de recherche (à droite)
-   contient logo (fermé) */
+   contient logo (fermé) à gauche */
+.navbar-header {
+  position: absolute;
+  top: 0;
+}
+/*logo*/
+.branding {} 
+.path-frontpage .branding {
+  display: none;
+}
+
+/*search form */
 .navtop {
   position: absolute;
   top: 0;
@@ -273,7 +284,6 @@ a.bef-link-active {
   float: left;
   width: 40%;
 }
-
 .navbar .navbar-btn {
   float: left;
   width: 20%;
@@ -282,9 +292,7 @@ a.bef-link-active {
   width: 80%;
   float:left;
 }
-.navbar-text {
-
-}
+.navbar-text {}
 
 .region-navtop {
   float: right;
