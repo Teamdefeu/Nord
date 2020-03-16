@@ -324,6 +324,11 @@ a.bef-link-active {
 }
 .navbar-header {
   width: 100%;
+  position: relative;
+}
+/* concerne les pages internes */
+#navbar {
+  min-height: 85px;
 }
 
 /* 2.5 Menu principal collapsé */
