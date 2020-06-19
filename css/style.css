@@ -684,9 +684,11 @@ line-height: initial;
 /* VUE EVA */
 .view-eva {
     font-size: 1.5em;
+    margin-bottom: 2em;
 }
 .view-eva .views-field-title {
     font-size: 14px;
+    margin-bottom: 0;
 }
 /* AFFICHAGE NOEUDS */
 .region-sidebar-second .block-title {
