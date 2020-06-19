@@ -681,6 +681,18 @@ line-height: initial;
 .navbar-text {
     margin-left: 0;
 }
+/* VUE EVA */
+.view-eva.view-eva-projets-sur-personne.view-id-eva_projets_sur_personne {
+    font-size: 24px;
+}
+.view-eva.view-eva-projets-sur-personne.view-id-eva_projets_sur_personne .views-row {
+    font-size: 12px;
+}
+/* AFFICHAGE NOEUDS */
+.region-sidebar-second .block-title {
+    font-size: 1.5em;
+}
+
 
 
 /* 6 Responsive */
