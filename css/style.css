@@ -699,10 +699,16 @@ h1.page-header {
 }
 /* AFFICHAGE NOEUDS */
 .region-sidebar-second .block-title {
-  font-size: 1.5em;
+  color: #777;
+  font-family: 'Open Sans',Arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
 }
-
-
+    /* Publications */
+.page-node-type-publication .field--name-body {
+  margin-top:1em;
+}
 
 /* 6 Responsive */
 
