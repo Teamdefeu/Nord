@@ -213,6 +213,12 @@ a.bef-link-active {
   border-radius: 20px;
 }
 
+.bef-exposed-form .form--inline > .form-item {
+    float: none;
+    display: inline;
+}
+
+
 /* 2.3 Barre Titre */
 
 .path-frontpage .title_breadcrumb {
@@ -311,15 +317,14 @@ a.bef-link-active {
 }
 
 #block-nord-main-menu {
-  margin-top: 50px;
+  margin-top: 0;
   z-index: 1;
   position: relative;
 }
-
 .path-frontpage #block-nord-main-menu {
-  margin-top: -42px;
+  margin-top: 0;
   z-index: 99;
-  position: absolute;
+  position: relative;
   right: 0;
 }
 .navbar-header {
@@ -699,7 +704,7 @@ h1.page-header {
 }
 /* AFFICHAGE NOEUDS */
 .region-sidebar-second .block-title {
-  color: #777;
+  color: #777 !important;
   font-family: 'Open Sans',Arial,sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -709,6 +714,9 @@ h1.page-header {
 .page-node-type-publication .field--name-body {
   margin-top:1em;
 }
+
+
+
 
 /* 6 Responsive */
 
