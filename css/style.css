@@ -519,13 +519,16 @@ h1.page-header {
 .view-documents .row_title,
 .individu_title span {
   color: #0088cc !important;
-  font-size: 1.4em;
+ /* font-size: 1.4em;*/
   font-weight: 400;
   letter-spacing: normal;
   line-height: 27px;
   margin: 0 0 14px 0;
 }
-
+.accueil_actualites_title,
+.individu_title span {
+  font-size: 1.4em;
+} 
 /* Bootstrap - ajouter règles pour 2,3 colonnes */
 /*.row .views-row {
   clear: none;
@@ -600,8 +603,8 @@ h1.page-header {
    width: 60%;
    display: inline-block;
 }
-
-h2.row-title {
+/* Titre dans Views rewrite */
+.row-title {
   font-size: 1.75em;
 }
 /* grandeur image dans liste projets */
@@ -648,6 +651,7 @@ h2.row-title {
 .row_body {
 
 }
+
 
 /* 4 Noeuds */
 
