@@ -662,6 +662,9 @@ h1.page-header {
 .field--name-field-image-publication {
   padding-bottom: 2em;
 }
+.field--name-field-image-personne .field--item {
+  padding-bottom: 2em;
+}
 
 /* 4.1 Node Actualité */
 
