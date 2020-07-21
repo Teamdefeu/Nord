@@ -1,5 +1,5 @@
 /**
-* Thème custom réalisé par Pfft, 2020
+* Thème custom Nord (2020)
 * Thème parent: Drupal Bootstrap (Bootstrap 3)
 *
 * TABLE DES MATIÈRES
@@ -39,8 +39,6 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
-
-/* AWP DÉPLACEWR SEARCH FIELD EN HAUT */
 
 /*.input-group {
     float:right;padding-bottom:2em;}
@@ -226,7 +224,6 @@ a.bef-link-active {
 }
 
 /* 2.4 Menu principal */
-/* NICK CSS */
 .navbar-default {
   background-color: #fff;
   border:none;
@@ -247,15 +244,11 @@ a.bef-link-active {
   margin: 0;
 }
 
-
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #fff!important;
   background-color: #0088cc!important;
-
 }
-
-/* FIN NICK CSS */
 
 /* Aligner l'entête avec le contenu */
 #navbar {
@@ -391,8 +384,6 @@ a.bef-link-active {
 
 /* 3.1 Footer */
 
-/* AWP font awesomne en blanc dans le footer */
-
 .fa {color:
     #fff !important;
 }
@@ -414,7 +405,6 @@ a.bef-link-active {
   padding-bottom: 50px;
 }
 
-/*AWP TITRE EN BLANC DANS FOOTER*/
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer a {
     color:
@@ -728,9 +718,6 @@ h1.page-header {
   margin-top:1em;
 }
 
-
-
-
 /* 6 Responsive */
 
 /* Desktop: Exposed Search visible*/
@@ -742,89 +729,72 @@ h1.page-header {
 }
 
 @media (max-width: 768px) {
-/* Mobile: Lien vers /recherche visible */
-#block-mobilesearchlink {
-  display: block;
-}
-.region-navtop .views-exposed-form {
-  display: none;
-}
-
-.navbar-default .navbar-brand {
+  /* Mobile: Lien vers /recherche visible */
+  #block-mobilesearchlink {
+    display: block;
+  }
+  .region-navtop .views-exposed-form {
+    display: none;
+  }
+  .navbar-default .navbar-brand {
     color: #0088cc;
     display: block;
     width: 100%;
     text-align: center;
-}
-.navbar-default .navbar-text {
+  }
+  .navbar-default .navbar-text {
     color: #777;
     text-align: center;
-}
-#block-nord-account-menu {
+  }
+  #block-nord-account-menu {
     float: left;
-}
-.navbar-search {
+  }
+  .navbar-search {
     /* float: left; */
     padding: 1em;
     text-align: left;
     /* display: block; */
     width: 100%;
-}
-.region-navtop {
+  }
+  .region-navtop {
     float: left;
     text-align: left;
-}
-#search-block-form .input-group .form-control {
+  }
+  #search-block-form .input-group .form-control {
     float: left;
-}
-.input-group-btn {
+  }
+  .input-group-btn {
     float: left;
     /* clear: both; */
-}
-.region-navigation {
+  }
+  .region-navigation {
     float: left;
     text-align: left;
     clear: both;
     padding-top: 1em;
-}
-
-
+  }
   ul.quicktabs-tabs li {
-
     display: block;
     padding-top: 2em;
   }
-
-.region-logo {
+  .region-logo {
     width: 100%;
     max-width:100%;
     margin: 0 auto;
+  }
 
-}
+  /*.name .navbar-text { text-align:center; margin: 0 auto;}*/
 
-/*.name .navbar-text { text-align:center; margin: 0 auto;}*/
-
-h1, h2, h3, h4, h5, h6 {
-
-padding-top: 2em;
-
-}
-
-
-
-
-.img-responsive {
+  h1, h2, h3, h4, h5, h6 {
+    padding-top: 2em;
+  }
+  .img-responsive {
     display: block;
     height: auto;
     max-width: 100%;
     margin:0 auto;
+  }
+  .row_wrapper {
+    padding-bottom: 1em;
+  }
 }
-
-.row_wrapper {
-  padding-bottom: 1em;
-}
-
-
-}
-
-
