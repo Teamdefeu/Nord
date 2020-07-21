@@ -717,6 +717,10 @@ h1.page-header {
 .page-node-type-publication .field--name-body {
   margin-top:1em;
 }
+/* Espacer Pager Actualités et Carousel Publications */
+.path-frontpage .content-bottom {
+  padding-top: 40px;
+}
 
 /* 6 Responsive */
 
