@@ -721,6 +721,10 @@ h1.page-header {
 .path-frontpage .content-bottom {
   padding-top: 40px;
 }
+/* Corriger flèches sur carousels Flexslider */
+.flex-direction-nav a::before {
+ line-height:1;
+}
 
 /* 6 Responsive */
 
