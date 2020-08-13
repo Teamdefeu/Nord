@@ -189,13 +189,11 @@ blockquote {
 /* 2.1 Menu mobile */
 
 /* 2.2 Quicktabs standards */
-.quicktabs-wrapper {
-  padding: 40px 0 0;
-}
+.quicktabs-wrapper {}
 .bef-links,
 ul.quicktabs-tabs {
   margin: 0;
-  padding: 0 0 40px;
+  padding: 40px 0;
   text-align: center;
 }
 .bef-links {
