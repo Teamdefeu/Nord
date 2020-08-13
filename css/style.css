@@ -725,6 +725,19 @@ h1.page-header {
 .flex-direction-nav a::before {
  line-height:1;
 }
+/* Copié de quicktabs.css - Appliquer en HTML */
+ul.quicktabs-tabs li {
+  display: inline;
+  background: none;
+  list-style-type: none;
+  padding: 2px;
+  white-space: nowrap;
+}
+/* Recherche : espacer colonnes sur l'affichage en grille */
+.path-recherche .views-view-grid .views-col {
+    float: left;
+    padding-right: 2em;
+}
 
 /* 6 Responsive */
 
