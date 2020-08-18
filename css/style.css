@@ -653,7 +653,12 @@ h1.page-header {
 .field--name-field-image-personne .field--item {
   padding-bottom: 2em;
 }
-
+/* Utiliser la même marge que les paragraphes, sous le champ body 
+ * pour les champs EVA.
+ */
+.field--name-body {
+  padding-bottom: 20px;
+}
 /* 4.1 Node Actualité */
 
 /* 4.2 Node Personne */
@@ -697,7 +702,13 @@ h1.page-header {
 .view-eva .views-row {
   font-size: 14px;
   font-weight: normal;
-  margin-bottom: 0;
+}
+.content .view-eva .views-row {
+  margin-bottom: 20px;
+}
+/* Séparer label et premier élément (pas de wrapper) */
+.content .view-eva .views-row:first-child {
+  margin-top: 20px;
 }
 .view-eva .views-field-title {
   font-size: 14px;
