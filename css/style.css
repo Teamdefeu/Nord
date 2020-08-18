@@ -662,6 +662,9 @@ h1.page-header {
 /* 4.1 Node Actualité */
 
 /* 4.2 Node Personne */
+.personne .content .field {
+  margin-bottom: 20px;
+}
 
 /* 4.3 Node Document */
 
