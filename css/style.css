@@ -201,7 +201,7 @@ ul.quicktabs-tabs {
 }
 .bef-links a,
 ul.quicktabs-tabs li a {
-  padding: 6px 20px 5px;
+  padding: 6px 15px 5px;
 }
 ul.quicktabs-tabs li.active a,
 a.bef-link-active {
@@ -749,6 +749,9 @@ ul.quicktabs-tabs li {
 .path-recherche .views-view-grid .views-col {
     float: left;
     padding-right: 2em;
+}
+.path-taxonomy .view-header {
+  margin-bottom: 32px;
 }
 
 /* 6 Responsive */
