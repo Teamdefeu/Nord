@@ -834,3 +834,11 @@ ul.quicktabs-tabs li {
     padding-bottom: 1em;
   }
 }
+/**/
+#block-views-block-actualites-block-1 .row_text_wrapper {
+  width: 100%;
+}
+#block-views-block-actualites-block-1 .row_title h2 {
+  font-size: 1.75em;
+  line-height: 1.25;
+}
