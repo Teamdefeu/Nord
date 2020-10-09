@@ -235,6 +235,7 @@ a.bef-link-active {
   line-height: 20px;
   padding: 10px 13px;
   text-transform: uppercase;
+  text-align: right;
 }
 
 .navbar-nav {
