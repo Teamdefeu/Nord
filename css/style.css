@@ -328,6 +328,20 @@ a.bef-link-active {
 }
 
 /* 2.5 Menu principal collapsé */
+.collapse.in {
+  display: block;
+}
+.collapse.in ul.menu > li {
+  clear: both;
+  width: 100%;
+}
+.navbar-default .collapse.in .navbar-nav > li > a {
+  width: 100%;
+}
+.collapse.in .menu--main {
+  width: 100%;
+  text-align: left;
+}
 
 /* 2.6 Titre des blocs */
 .block .block-title {
@@ -444,9 +458,29 @@ a.bef-link-active {
   margin-right: 0;
 }
 /* Si superposé à la bannière, limiter largeur du champ recherche */
-#edit-search-api-fulltext {
+/*#edit-search-api-fulltext {
   width: 200px;
+}*/
+
+#chronocustom-search-form .form-group:hover, 
+#chronocustom-search-form .form-group.hover {
+    border-radius: 25px;
 }
+
+/* Loupe */
+#chronocustom-search-form .form-group input.form-control {
+/*  background: transparent url(../images/loupe-s.gif) no-repeat 100% 0%;*/
+  background: transparent url(https://inuit.uqam.ca/sites/chronologie.aegir8.uqam.ca/themes/chronologie/images/loupe-s.gif) no-repeat 100% 0%;
+}
+url("https://inuit.uqam.ca/sites/chronologie.aegir8.uqam.ca/themes/chronologie/images/loupe-s.gif")
+#chronocustom-search-form .form-group {
+    float: none !important;
+    margin: 0 0 0 auto;
+}
+#block-collapsiblesearch .contextual {
+  display: none;
+}
+
 
 /* 3.4 Sidebar */
 .well.region-sidebar-second {
@@ -835,10 +869,37 @@ ul.quicktabs-tabs li {
   }
 }
 /**/
+
+#flexslider-2 .row_text_wrapper,
 #block-views-block-actualites-block-1 .row_text_wrapper {
   width: 100%;
 }
+#flexslider-2 .row_text_wrapper {
+  text-align: left;
+}
+#flexslider-2 .row_title h2,
 #block-views-block-actualites-block-1 .row_title h2 {
   font-size: 1.75em;
   line-height: 1.25;
 }
+#flexslider-2 .row_title h2 {
+  margin-top: 1em;
+}
+#flexslider-2 .row_image img,
+#block-views-block-actualites-block-1 .row_image img {
+  padding-bottom: 0;
+}
+#flexslider-2 .row_image img {
+  max-width: 400px;
+}
+
+#flexslider-2 .row_image_wrapper,
+#block-views-block-actualites-block-1 .row_image_wrapper {
+  padding-right: 0;
+}
+
+/*#flexslider-2 .row_image img {
+    padding-right: 0;
+    padding-bottom: 0;
+    max-width: initial;
+}*/
