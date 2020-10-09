@@ -336,9 +336,11 @@ a.bef-link-active {
 #block-collapsiblesearch {
   width: auto;
   float: right;
+  max-width: 175px;
 }
 #block-collapsiblesearch:hover {
-  width: 15%; /*max-width: 175px*/
+  width: 15%;
+  max-width: 175px;
 }
 /* 2.5 Menu principal collapsé */
 .collapse.in {
