@@ -319,6 +319,12 @@ a.bef-link-active {
   position: relative;
   right: 0;
 }
+/* Collapsible Search premier à partir de droite
+   Main Menu 2e à partir de la droite */
+#block-nord-main-menu {
+  float: right;
+}
+
 .navbar-header {
   width: 100%;
   position: relative;
@@ -332,7 +338,7 @@ a.bef-link-active {
   float: right;
 }
 #block-collapsiblesearch:hover {
-  width: 20%;
+  width: 15%; /*max-width: 175px*/
 }
 /* 2.5 Menu principal collapsé */
 .collapse.in {
