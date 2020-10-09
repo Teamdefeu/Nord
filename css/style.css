@@ -233,7 +233,7 @@ a.bef-link-active {
   font-size: 12px;
   font-style: normal;
   line-height: 20px;
-  padding: 10px 13px;
+  padding: 10px 10px;
   text-transform: uppercase;
   text-align: right;
 }
@@ -327,7 +327,13 @@ a.bef-link-active {
 #navbar {
   min-height: 85px;
 }
-
+#block-collapsiblesearch {
+  width: auto;
+  float: right;
+}
+#block-collapsiblesearch:hover {
+  width: 20%;
+}
 /* 2.5 Menu principal collapsé */
 .collapse.in {
   display: block;
@@ -867,6 +873,14 @@ ul.quicktabs-tabs li {
   }
   .row_wrapper {
     padding-bottom: 1em;
+  }
+  /*2e niveau menu mobile*/
+  .navbar-nav .open .dropdown-menu {
+    text-align: right;
+  }
+  /**/
+  #block-collapsiblesearch {
+    display: none;
   }
 }
 /**/
