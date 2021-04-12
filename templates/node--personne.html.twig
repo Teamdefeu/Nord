@@ -96,27 +96,54 @@
   {% endif %}
 
 <div class="wrapper">
-    <div class="row">
+  <div class="row">
 
-  <div class="top">
+    <div class="top">
       <div class="col-sm-4">
         <div class="top_left">
           {{ content.field_image_personne }}
         </div>
-  </div>
-      <div class="col-sm-8">
-      <h2 class="nomdepersonne">{{ node.label }}</h2>
-        <div{{ content_attributes.addClass('content') }}>
-          {{ content|without('field_image_personne')|without('body') }}
-        </div>
       </div>
-  </div>
+      <div class="col-sm-8 content">
+      <h2 class="nomdepersonne">{{ node.label }}</h2>
+           {{ content.field_type_chercheur }}
+            {{ content.field_programme_etude }}
+            {{ content.field_statut_si_etudiant_ }}
+            {{ content.field_universite }}
+            {{ content.field_collaborations_regionales_ }}
+            {{ content.field_courriel }}
+            {{ content.field_titre_memoire }}
+            {{ content.field_direction }}
+            {{ content.field_date_de_fin_du_memoire_ou_ }}
+            {{ content.field_coordonnees }}
+      </div>
+    </div>
   </div>
 
   <div class="bottom">
 {{ node.body.value|raw }}
   </div>
 
+ 
+
+
+   <div class="personne_extra">
+      <div class="col-sm-12">
+      <p>&nbsp;</p>
+          {{ content.field_publications_multiligne }}
+          {{ content.field_communications }}
+
+          {{ content.eva_projets_sur_personne_entity_view_1 }}
+          {{ content.eva_projets_sur_personne_entity_view_2 }}
+          {{ content.eva_evenements_sur_personne_entity_view_1 }}
+          {{ content.eva_evenements_sur_personne_entity_view_2 }}
+          {{ content.eva_publications_sur_personne_entity_view_1 }}
+          {{ content.eva_publications_sur_personne_entity_view_2 }}
+      </div>
+    </div>
+
+
+  </div>
 </div>
 
 </article>
