@@ -714,6 +714,10 @@ h1.page-header {
 .personne .content .field {
   margin-bottom: 20px;
 }
+.page-node-type-personne .field--name-field-image-personne img {
+  width: 100%;
+  max-width: 360px;
+}
 
 /* 4.3 Node Document */
 
